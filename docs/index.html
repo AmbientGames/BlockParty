@@ -51,23 +51,7 @@
             </div>
         </div>
 
-        <div class="stats-details">
-            <div class="stats-column">
-                <h3>Worlds</h3>
-                <div id="worlds-list" class="stats-table-wrap">
-                    <p class="muted">Loading...</p>
-                </div>
-            </div>
-            <div class="stats-column">
-                <h3>Leaderboard</h3>
-                <div id="leaderboard" class="stats-table-wrap">
-                    <p class="muted">Loading...</p>
-                </div>
-            </div>
-        </div>
-
-        <h3>Top Builds</h3>
-        <div id="top-builds" class="stats-table-wrap">
+        <div id="worlds-container">
             <p class="muted">Loading...</p>
         </div>
 
@@ -183,27 +167,37 @@ public class MyPlugin : IPlugin
             document.getElementById('stat-visits').textContent = fmt(s.totals?.visits);
             document.getElementById('stat-comments').textContent = fmt(s.totals?.comments);
 
-            document.getElementById('worlds-list').innerHTML = buildTable(
-                [
-                    { label: 'World', key: 'name' },
-                    { label: 'Online', key: 'activePlayers', fmt },
-                    { label: 'Chunks', key: 'totalChunks', fmt }
-                ], s.worlds);
-
-            document.getElementById('leaderboard').innerHTML = buildTable(
-                [
-                    { label: 'Player', key: 'displayName' },
-                    { label: 'Rep', key: 'reputation', fmt },
-                    { label: 'Blocks', key: 'blocksPlaced', fmt },
-                    { label: 'Sectors', key: 'sectorsOwned', fmt }
-                ], s.leaderboard);
-
-            document.getElementById('top-builds').innerHTML = buildTable(
-                [
-                    { label: 'Owner', key: 'ownerName' },
-                    { label: 'Rep', key: 'reputation', fmt },
-                    { label: 'Visits', key: 'visitCount', fmt }
-                ], s.topBuilds);
+            const container = document.getElementById('worlds-container');
+            if (s.worlds && s.worlds.length > 0) {
+                container.innerHTML = s.worlds.map(w => `
+                    <div class="world-section">
+                        <h3>${w.name} <span class="muted world-meta">${fmt(w.activePlayers)} online &middot; ${fmt(w.totalChunks)} chunks</span></h3>
+                        <div class="stats-details">
+                            <div class="stats-column">
+                                <h4>Leaderboard</h4>
+                                <div class="stats-table-wrap">${buildTable(
+                                    [
+                                        { label: 'Player', key: 'displayName' },
+                                        { label: 'Rep', key: 'reputation', fmt },
+                                        { label: 'Blocks', key: 'blocksPlaced', fmt },
+                                        { label: 'Sectors', key: 'sectorsOwned', fmt }
+                                    ], w.leaderboard)}</div>
+                            </div>
+                            <div class="stats-column">
+                                <h4>Top Builds</h4>
+                                <div class="stats-table-wrap">${buildTable(
+                                    [
+                                        { label: 'Owner', key: 'ownerName' },
+                                        { label: 'Rep', key: 'reputation', fmt },
+                                        { label: 'Visits', key: 'visitCount', fmt }
+                                    ], w.topBuilds)}</div>
+                            </div>
+                        </div>
+                    </div>
+                `).join('');
+            } else {
+                container.innerHTML = '<p class="muted">No worlds online.</p>';
+            }
 
             if (s.generatedUtc) {
                 const d = new Date(s.generatedUtc);
