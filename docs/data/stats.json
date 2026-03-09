@@ -1,288 +1,58 @@
 {
-  "generatedUtc": "2026-03-09T05:11:57.7632357Z",
-  "playersOnline": 1,
+  "generatedUtc": "2026-03-09T05:46:54.1688273Z",
+  "playersOnline": 0,
   "totals": {
-    "players": 13,
-    "chunks": 164,
-    "reactions": 36,
-    "visits": 5,
-    "follows": 12,
-    "comments": 37
+    "players": 0,
+    "chunks": 0,
+    "reactions": 0,
+    "visits": 0,
+    "follows": 0,
+    "comments": 0
   },
   "worlds": [
     {
       "id": "6c4e7b5d-3a2e-4f1c-8a5b-1d2e4f7a9c3b",
       "name": "Starter Canvas. Say Hi!",
       "activePlayers": 0,
-      "totalChunks": 0
+      "totalChunks": 0,
+      "leaderboard": [],
+      "topBuilds": []
     },
     {
       "id": "81bdd40b-0775-478e-b52c-377d5664f7a3",
       "name": "Large Builds",
-      "activePlayers": 1,
-      "totalChunks": 0
+      "activePlayers": 0,
+      "totalChunks": 0,
+      "leaderboard": [],
+      "topBuilds": []
     },
     {
       "id": "8703b92a-5ab6-4c8e-8bca-f839f0f42f0f",
       "name": "Christmas",
       "activePlayers": 0,
-      "totalChunks": 0
+      "totalChunks": 0,
+      "leaderboard": [],
+      "topBuilds": []
     },
     {
       "id": "b5e29d84-f063-4a27-8c19-3e7b0a95d2c4",
       "name": "Wild Terrain, remember to hit \u0027Play\u0027",
       "activePlayers": 0,
-      "totalChunks": 0
+      "totalChunks": 0,
+      "leaderboard": [],
+      "topBuilds": []
     },
     {
       "id": "a3f17c62-d940-4b13-9e87-5c1a2d84f6b0",
       "name": "3D Architecture",
       "activePlayers": 0,
-      "totalChunks": 0
-    }
-  ],
-  "leaderboard": [
-    {
-      "displayName": "BlockBot_Alpha",
-      "reputation": 39,
-      "blocksPlaced": 1,
-      "likesReceived": 0,
-      "sectorsOwned": 1
-    },
-    {
-      "displayName": "BlockBot_Beta",
-      "reputation": 39,
-      "blocksPlaced": 1,
-      "likesReceived": 0,
-      "sectorsOwned": 1
-    },
-    {
-      "displayName": "BlockBot_Alpha",
-      "reputation": 39,
-      "blocksPlaced": 1,
-      "likesReceived": 0,
-      "sectorsOwned": 1
-    },
-    {
-      "displayName": "BlockBot_Beta",
-      "reputation": 39,
-      "blocksPlaced": 1,
-      "likesReceived": 0,
-      "sectorsOwned": 1
-    },
-    {
-      "displayName": "BlockBot_Alpha",
-      "reputation": 39,
-      "blocksPlaced": 1,
-      "likesReceived": 0,
-      "sectorsOwned": 4
-    },
-    {
-      "displayName": "BlockBot_Beta",
-      "reputation": 39,
-      "blocksPlaced": 1,
-      "likesReceived": 0,
-      "sectorsOwned": 4
-    },
-    {
-      "displayName": "richardborsheim",
-      "reputation": 9,
-      "blocksPlaced": 0,
-      "likesReceived": 0,
-      "sectorsOwned": 1
-    },
-    {
-      "displayName": "BlockBot_Gamma",
-      "reputation": 9,
-      "blocksPlaced": 1,
-      "likesReceived": 0,
-      "sectorsOwned": 1
-    },
-    {
-      "displayName": "richardborsheim",
-      "reputation": 9,
-      "blocksPlaced": 0,
-      "likesReceived": 0,
-      "sectorsOwned": 1
-    },
-    {
-      "displayName": "BlockBot_Gamma",
-      "reputation": 9,
-      "blocksPlaced": 1,
-      "likesReceived": 0,
-      "sectorsOwned": 1
-    },
-    {
-      "displayName": "richardborsheim",
-      "reputation": 9,
-      "blocksPlaced": 1010,
-      "likesReceived": 0,
-      "sectorsOwned": 4
-    },
-    {
-      "displayName": "BlockBot_Gamma",
-      "reputation": 9,
-      "blocksPlaced": 1,
-      "likesReceived": 0,
-      "sectorsOwned": 4
-    },
-    {
-      "displayName": "richardborsheim",
-      "reputation": 2,
-      "blocksPlaced": 395,
-      "likesReceived": 0,
-      "sectorsOwned": 4
-    }
-  ],
-  "topBuilds": [
-    {
-      "chunkId": "00200040-0048-0020-b52c-377d5664f7a3",
-      "reputation": 3,
-      "visitCount": 0,
-      "ownerName": "BlockBot_Beta"
-    },
-    {
-      "chunkId": "0020003c-003c-0020-8bca-f839f0f42f0f",
-      "reputation": 3,
-      "visitCount": 0,
-      "ownerName": "BlockBot_Alpha"
-    },
-    {
-      "chunkId": "00200038-0038-0020-b52c-377d5664f7a3",
-      "reputation": 3,
-      "visitCount": 0,
-      "ownerName": "BlockBot_Alpha"
-    },
-    {
-      "chunkId": "0020003c-003c-0020-8a5b-1d2e4f7a9c3b",
-      "reputation": 3,
-      "visitCount": 0,
-      "ownerName": "BlockBot_Alpha"
-    },
-    {
-      "chunkId": "00200040-0044-0020-8bca-f839f0f42f0f",
-      "reputation": 3,
-      "visitCount": 0,
-      "ownerName": "BlockBot_Beta"
-    },
-    {
-      "chunkId": "00200040-0044-0020-8a5b-1d2e4f7a9c3b",
-      "reputation": 3,
-      "visitCount": 0,
-      "ownerName": "BlockBot_Beta"
-    },
-    {
-      "chunkId": "00200042-0045-0020-9e87-5c1a2d84f6b0",
-      "reputation": 0,
-      "visitCount": 0,
-      "ownerName": "richardborsheim"
-    },
-    {
-      "chunkId": "00200045-0045-0020-9e87-5c1a2d84f6b0",
-      "reputation": 0,
-      "visitCount": 0,
-      "ownerName": "richardborsheim"
-    },
-    {
-      "chunkId": "00200038-0041-0020-8a5b-1d2e4f7a9c3b",
-      "reputation": 0,
-      "visitCount": 0,
-      "ownerName": "BlockBot_Gamma"
-    },
-    {
-      "chunkId": "00200039-0040-0020-8a5b-1d2e4f7a9c3b",
-      "reputation": 0,
-      "visitCount": 0,
-      "ownerName": "BlockBot_Gamma"
-    },
-    {
-      "chunkId": "00200043-0044-0020-9e87-5c1a2d84f6b0",
-      "reputation": 0,
-      "visitCount": 0,
-      "ownerName": "richardborsheim"
-    },
-    {
-      "chunkId": "00200042-0043-0020-9e87-5c1a2d84f6b0",
-      "reputation": 0,
-      "visitCount": 0,
-      "ownerName": "richardborsheim"
-    },
-    {
-      "chunkId": "00200044-0044-0020-9e87-5c1a2d84f6b0",
-      "reputation": 0,
-      "visitCount": 0,
-      "ownerName": "richardborsheim"
-    },
-    {
-      "chunkId": "00200042-0042-0020-9e87-5c1a2d84f6b0",
-      "reputation": 0,
-      "visitCount": 0,
-      "ownerName": "richardborsheim"
-    },
-    {
-      "chunkId": "00200045-0044-0020-9e87-5c1a2d84f6b0",
-      "reputation": 0,
-      "visitCount": 0,
-      "ownerName": "richardborsheim"
-    },
-    {
-      "chunkId": "0020003b-0042-0020-8a5b-1d2e4f7a9c3b",
-      "reputation": 0,
-      "visitCount": 0,
-      "ownerName": "BlockBot_Gamma"
-    },
-    {
-      "chunkId": "00200044-0046-0020-9e87-5c1a2d84f6b0",
-      "reputation": 0,
-      "visitCount": 0,
-      "ownerName": "richardborsheim"
-    },
-    {
-      "chunkId": "00200044-0043-0020-9e87-5c1a2d84f6b0",
-      "reputation": 0,
-      "visitCount": 0,
-      "ownerName": "richardborsheim"
-    },
-    {
-      "chunkId": "00200044-0045-0020-9e87-5c1a2d84f6b0",
-      "reputation": 0,
-      "visitCount": 0,
-      "ownerName": "richardborsheim"
-    },
-    {
-      "chunkId": "00200043-0045-0020-9e87-5c1a2d84f6b0",
-      "reputation": 0,
-      "visitCount": 0,
-      "ownerName": "richardborsheim"
+      "totalChunks": 0,
+      "leaderboard": [],
+      "topBuilds": []
     }
   ],
   "recentActivity": {
     "periodHours": 24,
-    "events": [
-      {
-        "eventType": "ReactionReceived",
-        "count": 18
-      },
-      {
-        "eventType": "CommentReceived",
-        "count": 18
-      },
-      {
-        "eventType": "FollowReceived",
-        "count": 12
-      },
-      {
-        "eventType": "PlayerEnteredChunk",
-        "count": 3
-      },
-      {
-        "eventType": "FolloweeStartedBuilding",
-        "count": 3
-      },
-      {
-        "eventType": "WalletBalanceChange",
-        "count": 3
-      }
-    ]
+    "events": []
   }
 }
