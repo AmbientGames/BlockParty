@@ -1,9 +1,9 @@
 {
-  "generatedUtc": "2026-03-15T02:23:53.8944600Z",
-  "playersOnline": 1,
+  "generatedUtc": "2026-03-15T03:04:10.6080714Z",
+  "playersOnline": 0,
   "totals": {
     "players": 6,
-    "chunks": 44,
+    "chunks": 46,
     "reactions": 12,
     "visits": 1,
     "follows": 12,
@@ -58,7 +58,7 @@
     {
       "id": "b1a2c3d4-e5f6-7890-abcd-ef1234567890",
       "name": "90\u00B0 North",
-      "activePlayers": 1,
+      "activePlayers": 0,
       "totalChunks": 0,
       "leaderboard": [
         {
