@@ -1,13 +1,13 @@
 {
-  "generatedUtc": "2026-03-15T02:15:06.0612545Z",
-  "playersOnline": 0,
+  "generatedUtc": "2026-03-15T02:23:53.8944600Z",
+  "playersOnline": 1,
   "totals": {
-    "players": 3,
-    "chunks": 28,
-    "reactions": 0,
+    "players": 6,
+    "chunks": 44,
+    "reactions": 12,
     "visits": 1,
-    "follows": 0,
-    "comments": 0
+    "follows": 12,
+    "comments": 12
   },
   "worlds": [
     {
@@ -26,8 +26,29 @@
       "leaderboard": [
         {
           "displayName": "richardborsheim",
-          "reputation": 0,
-          "blocksPlaced": 173,
+          "reputation": 39,
+          "blocksPlaced": 1228,
+          "likesReceived": 0,
+          "sectorsOwned": 1
+        },
+        {
+          "displayName": "BlockBot_Alpha",
+          "reputation": 39,
+          "blocksPlaced": 1,
+          "likesReceived": 0,
+          "sectorsOwned": 1
+        },
+        {
+          "displayName": "BlockBot_Beta",
+          "reputation": 9,
+          "blocksPlaced": 1,
+          "likesReceived": 0,
+          "sectorsOwned": 1
+        },
+        {
+          "displayName": "BlockBot_Gamma",
+          "reputation": 9,
+          "blocksPlaced": 0,
           "likesReceived": 0,
           "sectorsOwned": 1
         }
@@ -37,7 +58,7 @@
     {
       "id": "b1a2c3d4-e5f6-7890-abcd-ef1234567890",
       "name": "90\u00B0 North",
-      "activePlayers": 0,
+      "activePlayers": 1,
       "totalChunks": 0,
       "leaderboard": [
         {
@@ -101,6 +122,31 @@
   ],
   "recentActivity": {
     "periodHours": 24,
-    "events": []
+    "events": [
+      {
+        "eventType": "FollowReceived",
+        "count": 12
+      },
+      {
+        "eventType": "ReactionReceived",
+        "count": 6
+      },
+      {
+        "eventType": "CommentReceived",
+        "count": 6
+      },
+      {
+        "eventType": "PlayerEnteredChunk",
+        "count": 1
+      },
+      {
+        "eventType": "FolloweeStartedBuilding",
+        "count": 1
+      },
+      {
+        "eventType": "WalletBalanceChange",
+        "count": 1
+      }
+    ]
   }
 }
