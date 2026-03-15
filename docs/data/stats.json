@@ -1,11 +1,11 @@
 {
-  "generatedUtc": "2026-03-15T00:52:53.3677497Z",
-  "playersOnline": 0,
+  "generatedUtc": "2026-03-15T00:55:35.8072317Z",
+  "playersOnline": 1,
   "totals": {
-    "players": 1,
-    "chunks": 13,
+    "players": 3,
+    "chunks": 28,
     "reactions": 0,
-    "visits": 0,
+    "visits": 1,
     "follows": 0,
     "comments": 0
   },
@@ -23,13 +23,21 @@
       "name": "Starter Canvas. Say Hi!",
       "activePlayers": 0,
       "totalChunks": 0,
-      "leaderboard": [],
+      "leaderboard": [
+        {
+          "displayName": "richardborsheim",
+          "reputation": 0,
+          "blocksPlaced": 173,
+          "likesReceived": 0,
+          "sectorsOwned": 1
+        }
+      ],
       "topBuilds": []
     },
     {
       "id": "b1a2c3d4-e5f6-7890-abcd-ef1234567890",
       "name": "90\u00B0 North",
-      "activePlayers": 0,
+      "activePlayers": 1,
       "totalChunks": 0,
       "leaderboard": [
         {
@@ -63,7 +71,15 @@
       "name": "Wild Terrain, remember to hit \u0027Play\u0027",
       "activePlayers": 0,
       "totalChunks": 0,
-      "leaderboard": [],
+      "leaderboard": [
+        {
+          "displayName": "richardborsheim",
+          "reputation": 0,
+          "blocksPlaced": 1,
+          "likesReceived": 0,
+          "sectorsOwned": 16
+        }
+      ],
       "topBuilds": []
     },
     {
