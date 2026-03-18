@@ -1,5 +1,5 @@
 {
-  "generatedUtc": "2026-03-17T01:08:36.4920018Z",
+  "generatedUtc": "2026-03-18T02:52:36.4947053Z",
   "playersOnline": 0,
   "totals": {
     "players": 0,
@@ -60,7 +60,7 @@
     },
     {
       "id": "a0b1c2d3-e4f5-6789-abcd-ef0123456789",
-      "name": "Lat0Height256",
+      "name": "Schema_a0b1c2d3-e4f5-6789-abcd-ef0123456789",
       "activePlayers": 0,
       "totalChunks": 0,
       "leaderboard": [],
