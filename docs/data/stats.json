@@ -1,8 +1,8 @@
 {
-  "generatedUtc": "2026-03-20T21:33:05.2858376Z",
+  "generatedUtc": "2026-03-20T21:36:51.4392779Z",
   "playersOnline": 0,
   "totals": {
-    "players": 1,
+    "players": 0,
     "chunks": 0,
     "reactions": 0,
     "visits": 0,
@@ -16,22 +16,6 @@
       "activePlayers": 0,
       "totalChunks": 0,
       "leaderboard": [],
-      "topBuilds": []
-    },
-    {
-      "id": "b1a2c3d4-e5f6-7890-abcd-ef1234567890",
-      "name": "90North",
-      "activePlayers": 0,
-      "totalChunks": 0,
-      "leaderboard": [
-        {
-          "displayName": "richardborsheim",
-          "reputation": 0,
-          "blocksPlaced": 0,
-          "likesReceived": 0,
-          "sectorsOwned": 0
-        }
-      ],
       "topBuilds": []
     },
     {
