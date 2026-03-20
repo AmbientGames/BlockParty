@@ -1,5 +1,5 @@
 {
-  "generatedUtc": "2026-03-20T10:42:53.7463352Z",
+  "generatedUtc": "2026-03-20T10:49:24.2726592Z",
   "playersOnline": 0,
   "totals": {
     "players": 1,
@@ -45,6 +45,14 @@
     {
       "id": "81bdd40b-0775-478e-b52c-377d5664f7a3",
       "name": "Paint",
+      "activePlayers": 0,
+      "totalChunks": 0,
+      "leaderboard": [],
+      "topBuilds": []
+    },
+    {
+      "id": "19a6ab9a-e88c-4f82-b57d-06b3f48f54a7",
+      "name": "EverestTrailAmaDablam",
       "activePlayers": 0,
       "totalChunks": 0,
       "leaderboard": [],
