@@ -1,11 +1,11 @@
 {
-  "generatedUtc": "2026-03-22T03:23:29.5347234Z",
+  "generatedUtc": "2026-03-22T03:26:02.6761963Z",
   "playersOnline": 0,
   "totals": {
     "players": 2,
-    "chunks": 0,
+    "chunks": 16,
     "reactions": 0,
-    "visits": 2,
+    "visits": 3,
     "follows": 0,
     "comments": 0
   },
@@ -19,7 +19,7 @@
         {
           "displayName": "richardborsheim",
           "reputation": 0,
-          "blocksPlaced": 0,
+          "blocksPlaced": 277,
           "likesReceived": 0,
           "sectorsOwned": 0
         }
@@ -37,14 +37,6 @@
     {
       "id": "8703b92a-5ab6-4c8e-8bca-f839f0f42f0f",
       "name": "Paint",
-      "activePlayers": 0,
-      "totalChunks": 0,
-      "leaderboard": [],
-      "topBuilds": []
-    },
-    {
-      "id": "b5e29d84-f063-4a27-8c19-3e7b0a95d2c4",
-      "name": "Wild",
       "activePlayers": 0,
       "totalChunks": 0,
       "leaderboard": [],
