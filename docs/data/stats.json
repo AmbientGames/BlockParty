@@ -1,12 +1,12 @@
 {
-  "generatedUtc": "2026-03-22T03:58:58.0399958Z",
+  "generatedUtc": "2026-03-22T04:13:00.9322325Z",
   "playersOnline": 0,
   "totals": {
     "players": 2,
     "chunks": 16,
     "reactions": 0,
     "visits": 3,
-    "follows": 0,
+    "follows": 12,
     "comments": 0
   },
   "worlds": [
@@ -33,10 +33,47 @@
       "totalChunks": 0,
       "leaderboard": [],
       "topBuilds": []
+    },
+    {
+      "id": "8703b92a-5ab6-4c8e-8bca-f839f0f42f0f",
+      "name": "Paint",
+      "activePlayers": 0,
+      "totalChunks": 0,
+      "leaderboard": [],
+      "topBuilds": []
+    },
+    {
+      "id": "b5e29d84-f063-4a27-8c19-3e7b0a95d2c4",
+      "name": "Wild",
+      "activePlayers": 0,
+      "totalChunks": 0,
+      "leaderboard": [],
+      "topBuilds": []
+    },
+    {
+      "id": "a3f17c62-d940-4b13-9e87-5c1a2d84f6b0",
+      "name": "Paint",
+      "activePlayers": 0,
+      "totalChunks": 0,
+      "leaderboard": [
+        {
+          "displayName": "richardborsheim",
+          "reputation": 0,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        }
+      ],
+      "topBuilds": []
     }
   ],
   "recentActivity": {
     "periodHours": 24,
-    "events": []
+    "events": [
+      {
+        "eventType": "FollowReceived",
+        "count": 3
+      }
+    ]
   }
 }
