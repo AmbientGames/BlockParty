@@ -1,5 +1,5 @@
 {
-  "generatedUtc": "2026-03-22T03:15:46.4167495Z",
+  "generatedUtc": "2026-03-22T03:17:54.3909922Z",
   "playersOnline": 0,
   "totals": {
     "players": 2,
@@ -32,30 +32,6 @@
       "activePlayers": 0,
       "totalChunks": 0,
       "leaderboard": [],
-      "topBuilds": []
-    },
-    {
-      "id": "8703b92a-5ab6-4c8e-8bca-f839f0f42f0f",
-      "name": "Paint",
-      "activePlayers": 0,
-      "totalChunks": 0,
-      "leaderboard": [],
-      "topBuilds": []
-    },
-    {
-      "id": "a3f17c62-d940-4b13-9e87-5c1a2d84f6b0",
-      "name": "Paint",
-      "activePlayers": 0,
-      "totalChunks": 0,
-      "leaderboard": [
-        {
-          "displayName": "richardborsheim",
-          "reputation": 0,
-          "blocksPlaced": 0,
-          "likesReceived": 0,
-          "sectorsOwned": 0
-        }
-      ],
       "topBuilds": []
     }
   ],
