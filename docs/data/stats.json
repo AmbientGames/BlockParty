@@ -1,11 +1,11 @@
 {
-  "generatedUtc": "2026-03-21T23:55:43.1412138Z",
+  "generatedUtc": "2026-03-22T00:10:59.5526610Z",
   "playersOnline": 0,
   "totals": {
-    "players": 1,
+    "players": 0,
     "chunks": 0,
     "reactions": 0,
-    "visits": 0,
+    "visits": 2,
     "follows": 0,
     "comments": 0
   },
@@ -13,22 +13,6 @@
     {
       "id": "6c4e7b5d-3a2e-4f1c-8a5b-1d2e4f7a9c3b",
       "name": "Paint",
-      "activePlayers": 0,
-      "totalChunks": 0,
-      "leaderboard": [
-        {
-          "displayName": "richardborsheim",
-          "reputation": 0,
-          "blocksPlaced": 0,
-          "likesReceived": 0,
-          "sectorsOwned": 0
-        }
-      ],
-      "topBuilds": []
-    },
-    {
-      "id": "b1a2c3d4-e5f6-7890-abcd-ef1234567890",
-      "name": "90North",
       "activePlayers": 0,
       "totalChunks": 0,
       "leaderboard": [],
