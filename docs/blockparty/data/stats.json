@@ -1,5 +1,5 @@
 {
-  "generatedUtc": "2026-04-05T09:19:27.2743353Z",
+  "generatedUtc": "2026-04-05T10:17:02.0603722Z",
   "playersOnline": 0,
   "totals": {
     "players": 1,
@@ -9,7 +9,24 @@
     "follows": 0,
     "comments": 0
   },
-  "worlds": [],
+  "worlds": [
+    {
+      "id": "b1a2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "90North",
+      "activePlayers": 0,
+      "totalChunks": 0,
+      "leaderboard": [
+        {
+          "displayName": "richardborsheim",
+          "reputation": 0,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        }
+      ],
+      "topBuilds": []
+    }
+  ],
   "recentActivity": {
     "periodHours": 24,
     "events": []
