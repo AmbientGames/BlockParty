@@ -3,132 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Block Party - Plugins &amp; Stats</title>
+    <title>Ambient Games</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <div class="hero">
-    <h1>Block Party</h1>
-    <p>Open-source plugins and live statistics for the Block Party voxel game by Ambient Games.</p>
+    <h1>Ambient Games</h1>
+    <p>Voxel worlds, adventures, and creative tools.</p>
 </div>
-
-<nav>
-    <a href="#stats">Live Stats</a>
-    <a href="#plugins">Plugins</a>
-    <a href="#getting-started">Getting Started</a>
-    <a href="https://github.com/AmbientGames/BlockParty">GitHub</a>
-</nav>
 
 <div class="container">
 
-    <section id="stats">
-        <h2>Live Stats</h2>
-        <div class="stats-overview">
-            <div class="stat-card">
-                <div class="value" id="stat-online">--</div>
-                <div class="label">Players Online</div>
-            </div>
-            <div class="stat-card">
-                <div class="value" id="stat-players">--</div>
-                <div class="label">Total Players</div>
-            </div>
-            <div class="stat-card">
-                <div class="value" id="stat-chunks">--</div>
-                <div class="label">Chunks Built</div>
-            </div>
-            <div class="stat-card">
-                <div class="value" id="stat-reactions">--</div>
-                <div class="label">Reactions</div>
-            </div>
-            <div class="stat-card">
-                <div class="value" id="stat-visits">--</div>
-                <div class="label">Visits</div>
-            </div>
-            <div class="stat-card">
-                <div class="value" id="stat-comments">--</div>
-                <div class="label">Comments</div>
-            </div>
-        </div>
-
-        <div id="worlds-container">
-            <p class="muted">Loading...</p>
-        </div>
-
-        <p class="muted stats-updated" id="stats-updated"></p>
-    </section>
-
-    <section id="plugins">
-        <h2>Included Plugins</h2>
+    <section>
+        <h2>Our Games</h2>
         <div class="plugin-grid">
-            <div class="plugin-card">
-                <h3>Draw Oriented</h3>
-                <p>Draw blocks oriented along the surface you click. Draws one layer at a time.</p>
-            </div>
-            <div class="plugin-card">
-                <h3>Draw Roof</h3>
-                <p>Draw roof-shaped blocks automatically along the selected surface.</p>
-            </div>
-            <div class="plugin-card">
-                <h3>Draw Walls</h3>
-                <p>Draw wall structures along a surface with a single click.</p>
-            </div>
-            <div class="plugin-card">
-                <h3>Fill Top</h3>
-                <p>Fill the top surface of a selection with the current block type.</p>
-            </div>
-            <div class="plugin-card">
-                <h3>Paint Oriented</h3>
-                <p>Paint existing blocks oriented along the surface normal.</p>
-            </div>
-            <div class="plugin-card">
-                <h3>Erase Oriented</h3>
-                <p>Erase blocks oriented along the surface you click.</p>
-            </div>
-            <div class="plugin-card">
-                <h3>Alternate</h3>
-                <p>Draw blocks in an alternating pattern for decorative surfaces.</p>
-            </div>
-            <div class="plugin-card">
-                <h3>CubeXYZ</h3>
-                <p>Import 3D models from CubeXYZ format into the voxel world.</p>
-            </div>
+            <a href="blockparty/" class="product-card">
+                <h3>Block Party</h3>
+                <p>A multiplayer voxel building game. Claim land, build structures, and explore worlds created by the community.</p>
+                <span class="product-tag">Multiplayer</span>
+            </a>
+            <a href="90north/" class="product-card">
+                <h3>90&deg; North</h3>
+                <p>An adventure set in the frozen north. Explore procedurally generated arctic landscapes, craft, survive, and discover saga-driven stories.</p>
+                <span class="product-tag">Multiplayer</span>
+            </a>
+            <a href="everesttrail/" class="product-card">
+                <h3>Everest Trail</h3>
+                <p>Trek through the Himalayas in a journey of altitude, endurance, and discovery. A saga-driven voxel adventure.</p>
+                <span class="product-tag">Multiplayer</span>
+            </a>
+            <a href="schema/" class="product-card">
+                <h3>Schema</h3>
+                <p>The offline world editor and modding toolkit for Ambient Games. Design worlds, test gameplay, and build content.</p>
+                <span class="product-tag">Offline</span>
+            </a>
         </div>
-    </section>
-
-    <section id="getting-started">
-        <h2>Getting Started</h2>
-        <p>Create your own plugins by implementing the <code>IPlugin</code> interface. Reference the game assemblies from your Block Party installation directory.</p>
-
-        <pre><code>using Ambient.Client.Domain.Enums;
-using Ambient.Client.Domain.Plugins;
-using Ambient.Client.Domain.SceneGraph;
-
-namespace Ambient.Plugins;
-
-public class MyPlugin : IPlugin
-{
-    PluginCategory IPlugin.Category =&gt; PluginCategory.Draw;
-    string IPlugin.Description =&gt; "My custom plugin.";
-    string IPlugin.Name =&gt; "My Plugin";
-    SKBitmap IPlugin.Icon =&gt; /* your 32x32 icon */;
-
-    public void Apply(VoxelWorld world, EditorState editorState)
-    {
-        // Your plugin logic here
-        int highlightCount = world.GetHighlightCount();
-        for (int i = 0; i &lt; highlightCount; i++)
-        {
-            var block = world.GetHighlightItem(i);
-            if (world.GetVoxel(block) == 0)
-            {
-                world.SetVoxel(block, editorState.Pattern);
-            }
-        }
-    }
-}</code></pre>
-
-        <p>Build your project as a class library, then place the resulting DLL in the game's installation folder. The game will automatically discover and load your plugin.</p>
     </section>
 
 </div>
@@ -136,79 +46,6 @@ public class MyPlugin : IPlugin
 <footer>
     &copy; 2012&ndash;2026 Ambient Games. Licensed under MIT.
 </footer>
-
-<script>
-    const fmt = n => (n ?? 0).toLocaleString();
-
-    function buildTable(headers, rows) {
-        if (!rows || rows.length === 0) return '<p class="muted">No data yet.</p>';
-        let html = '<table><thead><tr>';
-        headers.forEach(h => html += `<th>${h.label}</th>`);
-        html += '</tr></thead><tbody>';
-        rows.forEach(row => {
-            html += '<tr>';
-            headers.forEach(h => html += `<td>${h.fmt ? h.fmt(row[h.key]) : row[h.key]}</td>`);
-            html += '</tr>';
-        });
-        html += '</tbody></table>';
-        return html;
-    }
-
-    async function loadStats() {
-        try {
-            const response = await fetch('data/stats.json');
-            if (!response.ok) return;
-            const s = await response.json();
-
-            document.getElementById('stat-online').textContent = fmt(s.playersOnline);
-            document.getElementById('stat-players').textContent = fmt(s.totals?.players);
-            document.getElementById('stat-chunks').textContent = fmt(s.totals?.chunks);
-            document.getElementById('stat-reactions').textContent = fmt(s.totals?.reactions);
-            document.getElementById('stat-visits').textContent = fmt(s.totals?.visits);
-            document.getElementById('stat-comments').textContent = fmt(s.totals?.comments);
-
-            const container = document.getElementById('worlds-container');
-            if (s.worlds && s.worlds.length > 0) {
-                container.innerHTML = s.worlds.map(w => `
-                    <div class="world-section">
-                        <h3>${w.name} <span class="muted world-meta">${fmt(w.activePlayers)} online &middot; ${fmt(w.totalChunks)} chunks</span></h3>
-                        <div class="stats-details">
-                            <div class="stats-column">
-                                <h4>Leaderboard</h4>
-                                <div class="stats-table-wrap">${buildTable(
-                                    [
-                                        { label: 'Player', key: 'displayName' },
-                                        { label: 'Rep', key: 'reputation', fmt },
-                                        { label: 'Blocks', key: 'blocksPlaced', fmt },
-                                        { label: 'Sectors', key: 'sectorsOwned', fmt }
-                                    ], w.leaderboard)}</div>
-                            </div>
-                            <div class="stats-column">
-                                <h4>Top Builds</h4>
-                                <div class="stats-table-wrap">${buildTable(
-                                    [
-                                        { label: 'Owner', key: 'ownerName' },
-                                        { label: 'Rep', key: 'reputation', fmt },
-                                        { label: 'Visits', key: 'visitCount', fmt }
-                                    ], w.topBuilds)}</div>
-                            </div>
-                        </div>
-                    </div>
-                `).join('');
-            } else {
-                container.innerHTML = '<p class="muted">No worlds online.</p>';
-            }
-
-            if (s.generatedUtc) {
-                const d = new Date(s.generatedUtc);
-                document.getElementById('stats-updated').textContent = 'Last updated: ' + d.toLocaleString();
-            }
-        } catch (e) {
-            // Stats not available yet
-        }
-    }
-    loadStats();
-</script>
 
 </body>
 </html>
