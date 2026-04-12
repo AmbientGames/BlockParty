@@ -1,118 +1,17 @@
 {
-  "generatedUtc": "2026-04-12T15:47:50.7877407Z",
+  "generatedUtc": "2026-04-12T16:00:10.3270829Z",
   "playersOnline": 0,
   "totals": {
-    "players": 10,
-    "chunks": 454,
-    "reactions": 30,
+    "players": 0,
+    "chunks": 0,
+    "reactions": 0,
     "visits": 0,
-    "follows": 90,
-    "comments": 81
+    "follows": 0,
+    "comments": 0
   },
-  "worlds": [
-    {
-      "id": "b1a2c3d4-e5f6-7890-abcd-ef1234567890",
-      "name": "90North",
-      "activePlayers": 0,
-      "totalChunks": 0,
-      "leaderboard": [
-        {
-          "displayName": "Test_Bard",
-          "reputation": 19,
-          "blocksPlaced": 0,
-          "likesReceived": 0,
-          "sectorsOwned": 0
-        },
-        {
-          "displayName": "Test_Summoner",
-          "reputation": 19,
-          "blocksPlaced": 0,
-          "likesReceived": 0,
-          "sectorsOwned": 0
-        },
-        {
-          "displayName": "Test_Ranger",
-          "reputation": 19,
-          "blocksPlaced": 0,
-          "likesReceived": 0,
-          "sectorsOwned": 0
-        },
-        {
-          "displayName": "Test_Cleric",
-          "reputation": 19,
-          "blocksPlaced": 0,
-          "likesReceived": 0,
-          "sectorsOwned": 0
-        },
-        {
-          "displayName": "Test_Mage",
-          "reputation": 19,
-          "blocksPlaced": 0,
-          "likesReceived": 0,
-          "sectorsOwned": 0
-        },
-        {
-          "displayName": "Test_Rogue",
-          "reputation": 19,
-          "blocksPlaced": 0,
-          "likesReceived": 0,
-          "sectorsOwned": 0
-        },
-        {
-          "displayName": "Test_Warrior",
-          "reputation": 19,
-          "blocksPlaced": 0,
-          "likesReceived": 0,
-          "sectorsOwned": 0
-        },
-        {
-          "displayName": "Test_Barbarian",
-          "reputation": 19,
-          "blocksPlaced": 0,
-          "likesReceived": 0,
-          "sectorsOwned": 0
-        },
-        {
-          "displayName": "Test_Wizard",
-          "reputation": 19,
-          "blocksPlaced": 0,
-          "likesReceived": 0,
-          "sectorsOwned": 0
-        },
-        {
-          "displayName": "richardborsheim",
-          "reputation": 0,
-          "blocksPlaced": 0,
-          "likesReceived": 0,
-          "sectorsOwned": 0
-        }
-      ],
-      "topBuilds": []
-    }
-  ],
+  "worlds": [],
   "recentActivity": {
     "periodHours": 24,
-    "events": [
-      {
-        "eventType": "FollowReceived",
-        "count": 90
-      },
-      {
-        "eventType": "PlayerEnteredChunk",
-        "count": 1
-      },
-      {
-        "eventType": "FolloweeStartedBuilding",
-        "count": 1
-      },
-      {
-        "eventType": "WalletBalanceChange",
-        "count": 1
-      },
-      {
-        "eventType": "ShopkeeperSale",
-        "count": 1
-      }
-    ]
+    "events": []
   }
 }
