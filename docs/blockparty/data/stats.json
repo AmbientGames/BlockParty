@@ -1,15 +1,103 @@
 {
-  "generatedUtc": "2026-04-13T05:18:15.5610213Z",
+  "generatedUtc": "2026-04-13T05:39:16.2471776Z",
   "playersOnline": 0,
   "totals": {
     "players": 10,
-    "chunks": 645,
+    "chunks": 651,
     "reactions": 90,
     "visits": 0,
     "follows": 90,
     "comments": 90
   },
-  "worlds": [],
+  "worlds": [
+    {
+      "id": "b1a2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "90North",
+      "activePlayers": 0,
+      "totalChunks": 0,
+      "leaderboard": [
+        {
+          "displayName": "Test_Bard",
+          "reputation": 27,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Test_Summoner",
+          "reputation": 27,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Test_Ranger",
+          "reputation": 27,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Test_Cleric",
+          "reputation": 27,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Test_Mage",
+          "reputation": 27,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Test_Rogue",
+          "reputation": 27,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Test_Warrior",
+          "reputation": 27,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Test_Barbarian",
+          "reputation": 27,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "Test_Wizard",
+          "reputation": 27,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        },
+        {
+          "displayName": "richardborsheim",
+          "reputation": 0,
+          "blocksPlaced": 0,
+          "likesReceived": 0,
+          "sectorsOwned": 0
+        }
+      ],
+      "topBuilds": []
+    },
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef9876543210",
+      "name": "90NorthExplorer",
+      "activePlayers": 0,
+      "totalChunks": 0,
+      "leaderboard": [],
+      "topBuilds": []
+    }
+  ],
   "recentActivity": {
     "periodHours": 24,
     "events": [
