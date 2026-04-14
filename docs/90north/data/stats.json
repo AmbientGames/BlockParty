@@ -1,11 +1,11 @@
 {
-  "generatedUtc": "2026-04-13T05:11:02.0304987Z",
+  "generatedUtc": "2026-04-14T02:28:19.2497184Z",
   "game": "90\u00B0 North: Dash \u0026 Cache",
   "totals": {
-    "players": 10,
-    "completions": 9,
-    "deathTraces": 18,
-    "geoCaches": 9
+    "players": 6,
+    "completions": 4,
+    "deathTraces": 8,
+    "geoCaches": 4
   },
   "speedrunLeaderboard": [],
   "fullCompletionLeaderboard": [],
@@ -27,31 +27,6 @@
     },
     {
       "displayName": "Test_Ranger",
-      "cachesPlaced": 1,
-      "activeCaches": 1
-    },
-    {
-      "displayName": "Test_Mage",
-      "cachesPlaced": 1,
-      "activeCaches": 1
-    },
-    {
-      "displayName": "Test_Wizard",
-      "cachesPlaced": 1,
-      "activeCaches": 1
-    },
-    {
-      "displayName": "Test_Cleric",
-      "cachesPlaced": 1,
-      "activeCaches": 1
-    },
-    {
-      "displayName": "Test_Bard",
-      "cachesPlaced": 1,
-      "activeCaches": 1
-    },
-    {
-      "displayName": "Test_Summoner",
       "cachesPlaced": 1,
       "activeCaches": 1
     }
