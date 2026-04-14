@@ -1,34 +1,13 @@
 {
-  "generatedUtc": "2026-04-14T02:28:19.2497184Z",
+  "generatedUtc": "2026-04-14T03:24:04.6912534Z",
   "game": "90\u00B0 North: Dash \u0026 Cache",
   "totals": {
-    "players": 6,
-    "completions": 4,
-    "deathTraces": 8,
-    "geoCaches": 4
+    "players": 0,
+    "completions": 0,
+    "deathTraces": 0,
+    "geoCaches": 0
   },
   "speedrunLeaderboard": [],
   "fullCompletionLeaderboard": [],
-  "geoCacheLeaderboard": [
-    {
-      "displayName": "Test_Warrior",
-      "cachesPlaced": 1,
-      "activeCaches": 1
-    },
-    {
-      "displayName": "Test_Barbarian",
-      "cachesPlaced": 1,
-      "activeCaches": 1
-    },
-    {
-      "displayName": "Test_Rogue",
-      "cachesPlaced": 1,
-      "activeCaches": 1
-    },
-    {
-      "displayName": "Test_Ranger",
-      "cachesPlaced": 1,
-      "activeCaches": 1
-    }
-  ]
+  "geoCacheLeaderboard": []
 }
