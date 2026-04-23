@@ -1,11 +1,11 @@
 {
-  "generatedUtc": "2026-04-22T14:33:16.8705618Z",
+  "generatedUtc": "2026-04-23T07:46:53.5743932Z",
   "game": "90\u00B0 North: Dash \u0026 Cache",
   "totals": {
     "players": 10,
     "completions": 9,
     "deathTraces": 18,
-    "geoCaches": 9
+    "geoCaches": 10
   },
   "speedrunLeaderboard": [],
   "fullCompletionLeaderboard": [],
@@ -64,6 +64,11 @@
     },
     {
       "displayName": "Test_Summoner",
+      "cachesPlaced": 1,
+      "activeCaches": 1
+    },
+    {
+      "displayName": "richardborsheim",
       "cachesPlaced": 1,
       "activeCaches": 1
     }
