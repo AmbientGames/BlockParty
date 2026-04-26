@@ -38,8 +38,8 @@
                 <div class="label">Active GeoCaches</div>
             </div>
             <div class="stat-card">
-                <div class="value" id="stat-deaths">--</div>
-                <div class="label">Death Traces</div>
+                <div class="value" id="stat-remnants">--</div>
+                <div class="label">Remnant Traces</div>
             </div>
         </div>
 
@@ -106,7 +106,7 @@
             document.getElementById('stat-players').textContent = fmt(s.totals?.players);
             document.getElementById('stat-completions').textContent = fmt(s.totals?.completions);
             document.getElementById('stat-geocaches').textContent = fmt(s.totals?.geoCaches);
-            document.getElementById('stat-deaths').textContent = fmt(s.totals?.deathTraces);
+            document.getElementById('stat-remnants').textContent = fmt(s.totals?.remnantTraces);
 
             const container = document.getElementById('worlds-container');
             let html = '';
