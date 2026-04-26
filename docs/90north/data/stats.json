@@ -1,11 +1,11 @@
 {
-  "generatedUtc": "2026-04-26T15:51:51.9516619Z",
+  "generatedUtc": "2026-04-26T18:56:16.9559677Z",
   "game": "90\u00B0 North: Dash \u0026 Cache",
   "totals": {
-    "players": 10,
-    "completions": 9,
-    "remnantTraces": 18,
-    "geoCaches": 10
+    "players": 0,
+    "completions": 0,
+    "remnantTraces": 0,
+    "geoCaches": 0
   },
   "speedrunLeaderboard": [],
   "fullCompletionLeaderboard": [],
@@ -21,56 +21,5 @@
     "20": [],
     "10": []
   },
-  "geoCacheLeaderboard": [
-    {
-      "displayName": "Test_Warrior",
-      "cachesPlaced": 1,
-      "activeCaches": 1
-    },
-    {
-      "displayName": "Test_Barbarian",
-      "cachesPlaced": 1,
-      "activeCaches": 1
-    },
-    {
-      "displayName": "Test_Rogue",
-      "cachesPlaced": 1,
-      "activeCaches": 1
-    },
-    {
-      "displayName": "Test_Ranger",
-      "cachesPlaced": 1,
-      "activeCaches": 1
-    },
-    {
-      "displayName": "Test_Mage",
-      "cachesPlaced": 1,
-      "activeCaches": 1
-    },
-    {
-      "displayName": "Test_Wizard",
-      "cachesPlaced": 1,
-      "activeCaches": 1
-    },
-    {
-      "displayName": "Test_Cleric",
-      "cachesPlaced": 1,
-      "activeCaches": 1
-    },
-    {
-      "displayName": "Test_Bard",
-      "cachesPlaced": 1,
-      "activeCaches": 1
-    },
-    {
-      "displayName": "Test_Summoner",
-      "cachesPlaced": 1,
-      "activeCaches": 1
-    },
-    {
-      "displayName": "richardborsheim",
-      "cachesPlaced": 1,
-      "activeCaches": 1
-    }
-  ]
+  "geoCacheLeaderboard": []
 }
